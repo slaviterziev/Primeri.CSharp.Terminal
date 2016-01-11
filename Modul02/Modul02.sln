@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul02", "Modul02\Modul02.csproj", "{24EC62A8-F8A4-4D88-BA09-F73CFB8C283F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadFromCommandLine", "ReadFromCommandLine\ReadFromCommandLine.csproj", "{8871FDAD-DD41-411A-90F8-2298FFE3C56C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,8 +15,12 @@ Global
 		{24EC62A8-F8A4-4D88-BA09-F73CFB8C283F}.Debug|x86.Build.0 = Debug|x86
 		{24EC62A8-F8A4-4D88-BA09-F73CFB8C283F}.Release|x86.ActiveCfg = Release|x86
 		{24EC62A8-F8A4-4D88-BA09-F73CFB8C283F}.Release|x86.Build.0 = Release|x86
+		{8871FDAD-DD41-411A-90F8-2298FFE3C56C}.Debug|x86.ActiveCfg = Debug|x86
+		{8871FDAD-DD41-411A-90F8-2298FFE3C56C}.Debug|x86.Build.0 = Debug|x86
+		{8871FDAD-DD41-411A-90F8-2298FFE3C56C}.Release|x86.ActiveCfg = Release|x86
+		{8871FDAD-DD41-411A-90F8-2298FFE3C56C}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Modul02\Modul02.csproj
+		StartupItem = ReadFromCommandLine\ReadFromCommandLine.csproj
 	EndGlobalSection
 EndGlobal
