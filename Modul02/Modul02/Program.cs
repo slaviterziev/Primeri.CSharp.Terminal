@@ -7,7 +7,10 @@ namespace Modul02
 		public static void Main (string[] args)
 		{
 			//Дефиниране на променливи
-			int a = 0, b = 0, sum = 0;
+			int a = 0, b = 0; 
+			int sum = 0;
+			string program_name = "Модул 02 - Примери";
+			string program_version = "1.0";
 
 			//Събиране на числа
 			a = 10;
@@ -15,6 +18,10 @@ namespace Modul02
 
 
 			sum = a + b;
+
+			//Данни за програмата
+			Console.WriteLine (program_name);
+			Console.WriteLine ("Версия  " + program_version +"\n\n");
 
 			//Писане в конзала
 			Console.Write (a);
@@ -39,12 +46,16 @@ namespace Modul02
 			Console.WriteLine (" \n използване на ++ ");
 			a ++;
 			Console.WriteLine (a);
-			Console.WriteLine (" \n използване на -- ");
-			a --;
-			Console.WriteLine (a);
 
-			Console.WriteLine ("\nСтандартно делене "  +  ( 15/4 ) .ToString( )); // - 2 (7/3=2.333333)
-			Console.WriteLine ("\nОстатък делене    "  +  ( 15%4 ) .ToString( )); //- 1 (1/3=0.3333333)
+			a = 15; b=10;
+
+
+			Console.WriteLine ("\nСтандартно делене");
+			Console.WriteLine (a/b);
+			Console.WriteLine ("\nПрихващане на остатък");
+			Console.WriteLine (a%b);
+			Console.WriteLine ();
+
 		}
 	}
 }
