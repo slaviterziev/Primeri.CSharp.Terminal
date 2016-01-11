@@ -7,12 +7,12 @@ namespace Modul02
 		public static void Main (string[] args)
 		{
 			//Дефиниране на променливи
-			int a = 0, b = 0;
-			int sum = 0;
+			int a = 0, b = 0, sum = 0;
 
 			//Събиране на числа
-			a = 5;
-			b = 10;
+			a = 10;
+			b = 5;
+
 
 			sum = a + b;
 
@@ -22,6 +22,29 @@ namespace Modul02
 			Console.Write (b);
 			Console.Write (" = ");
 			Console.WriteLine ( sum );
+
+			//Допълнителни оператори
+			Console.WriteLine (" \n използване на += ");
+			a += b;
+			Console.WriteLine (a);
+
+			Console.WriteLine (" \n използване на -= ");
+			a -= b;
+			Console.WriteLine (a);
+
+			Console.WriteLine (" \n използване на *= ");
+			a *= b;
+			Console.WriteLine (a);
+
+			Console.WriteLine (" \n използване на ++ ");
+			a ++;
+			Console.WriteLine (a);
+			Console.WriteLine (" \n използване на -- ");
+			a --;
+			Console.WriteLine (a);
+
+			Console.WriteLine ("\nСтандартно делене "  +  ( 15/4 ) .ToString( )); // - 2 (7/3=2.333333)
+			Console.WriteLine ("\nОстатък делене    "  +  ( 15%4 ) .ToString( )); //- 1 (1/3=0.3333333)
 		}
 	}
 }
